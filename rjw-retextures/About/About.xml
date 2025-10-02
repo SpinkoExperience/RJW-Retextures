@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <modVersion IgnoreIfNoMatchingField="True">2.7</modVersion>
+	<name>RJW Retextures</name>
+	<author>Spinko</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.6</li>
+	</supportedVersions>
+	<packageId>SPINK.rjwtextures</packageId>
+	<modDependencies>
+		<li>
+			<packageId>rim.job.world</packageId>
+			<displayName>RimJobWorld</displayName>
+			<downloadUrl>https://gitgud.io/Ed86/rjw</downloadUrl>
+		</li>
+		<li>
+			<packageId>brrainz.harmony</packageId>
+			<displayName>Harmony</displayName>
+			<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>brrainz.harmony</li>
+		<li>rim.job.world</li>
+		<li>rimworld.ekss.rjwex</li>
+    <li>rjw.sexperience</li>
+	</loadAfter>
+	<description>
+Retextures for the following mods below:
+
+RJW EX
+	</description>
+</ModMetaData>
